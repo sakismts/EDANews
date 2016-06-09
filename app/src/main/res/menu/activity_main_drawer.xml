@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_home" android:icon="@drawable/home_btn"
+            android:title="Home" />
+        <item android:id="@+id/menu_favorites" android:icon="@drawable/heart_full_toolbar"
+            android:title="Favourites" />
+        <item android:id="@+id/map" android:icon="@drawable/map_btn"
+            android:title="Map" />
+        <item android:id="@+id/about" android:icon="@drawable/about_btn"
+            android:title="About" />
+        <item android:id="@+id/telephones" android:icon="@drawable/phone"
+            android:title="Useful telephones" />
+    </group>
+
+    <item android:title="Search in Eda WebSite">
+        <menu>
+            <item android:id="@+id/eda_search" android:icon="@android:drawable/ic_menu_search"
+                android:title="Search" />
+
+        </menu>
+    </item>
+
+</menu>
